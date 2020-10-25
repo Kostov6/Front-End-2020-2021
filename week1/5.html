@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>User information</legend>
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Username"
+        />
+        <br />
+        <label for="username">Password:</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Password"
+        />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Personal information</legend>
+
+        <label for="firstName">First Name:</label>
+        <br />
+        <input type="text" name="firstName" id="firstName" />
+        <br />
+        <label for="lastName">Last Name:</label>
+        <br />
+        <input type="text" name="lastName" id="lastName" />
+        <br />
+        <input type="radio" name="gender" id="maleOption" checked />
+        <label for="maleOption">Male</label>
+        <br />
+        <input type="radio" name="gender" id="femaleOption" />
+        <label for="femaleOption">Female</label>
+        <br />
+        Favourite food:
+        <select name="favouriteFood" id="fFood">
+          <option value="pizza">Pizza</option>
+          <option value="sushi">Sushi</option>
+          <option value="borsh">Borsh</option>
+        </select>
+      </fieldset>
+      <br />
+      <button type="submit">Register</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
