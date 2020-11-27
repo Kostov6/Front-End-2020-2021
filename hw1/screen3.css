@@ -1,0 +1,191 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+html {
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    background: linear-gradient(-100deg, rgba(177, 154, 254, 1) 0%, rgba(162, 242, 241, 1) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    max-width: 18rem;
+    width: 100%;
+    background-color: white;
+    height: fit-content;
+}
+
+.messages {
+    margin-top: 0.5rem;
+    max-width: 55rem;
+    width: 100%;
+    background-color: white;
+
+}
+
+.profilePicMain {
+    width: 5.25rem;
+}
+
+.messageFormPic {
+    width: 2rem;
+}
+
+.messagePic {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.profilePlaceholder {
+    width: 4rem;
+}
+
+.profileBoard {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 245, 245);
+    height: 3.75rem;
+    padding: 0.75rem;
+    box-sizing: border-box;
+}
+
+.profileBoardValue {
+    color: rgb(85, 190, 215);
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.profileBoardTitle {
+    font-size: 0.75rem;
+    margin-bottom: 0.2rem;
+}
+
+.logoutButton {
+    border-radius: 20px;
+    color: rgb(85, 190, 215);
+    border: 2px solid rgb(85, 190, 215);
+    font-weight: bold;
+    outline: none;
+}
+
+.logoutButton:hover {
+    background-color: lightgray;
+}
+
+.messageForm {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: rgb(244, 252, 253);
+}
+
+.messagePicInput {
+    width: 93%;
+    display: flex;
+}
+
+.messageField {
+    margin-left: 1rem;
+    width: 100%;
+    border-radius: 0.9rem;
+    border: 1px solid rgb(245, 245, 245);
+    outline: none;
+}
+
+.message {
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+
+.messageContainer {
+    max-width: 47rem;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.messageHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerUsername,
+.headerPostTime {
+    display: inline;
+}
+
+.headerUsername {
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.headerPostTime {
+    font-size: 0.9rem;
+    color: rgb(100, 100, 100);
+}
+
+.messageText {
+    margin-top: 0.5rem;
+}
+
+.likeDislike {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.likes {
+    margin-right: 6rem;
+}
+
+@media screen and (max-width: 890px) {
+
+    .content {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .profile {
+        max-width: 100%;
+    }
+
+    .messages {
+        margin-top: 0px;
+    }
+}
+
+::placeholder {
+    color: rgb(85, 190, 215);
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(85, 190, 215)
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(85, 190, 215)
+}

@@ -1,0 +1,96 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+html {
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    background: linear-gradient(-100deg, rgba(177, 154, 254, 1) 0%, rgba(162, 242, 241, 1) 100%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h3 {
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+h3 {
+    color: #848694;
+    margin-bottom: 3.5rem;
+}
+
+#login {
+    flex-basis: auto;
+    max-width: 32rem;
+    width: 90%;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 10px;
+}
+
+.email,
+.password {
+    display: block;
+    width: 100%;
+    height: 1.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(177, 154, 254, 0.25);
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+}
+
+.email:focus,
+.password:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(177, 154, 254, 1);
+}
+
+.links {
+    float: right;
+}
+
+#submitButton {
+    border: none;
+    border-radius: 30px;
+    max-width: 10rem;
+    width: 100%;
+    background-color: rgb(85, 190, 215);
+    padding: 0.5rem;
+    color: white;
+    display: block;
+    margin-top: 2.5rem;
+}
+
+
+.createAccount {
+    margin-top: 1rem;
+    display: block;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 890px) {
+    #login {
+        max-width: 90%;
+        height: 60%;
+    }
+
+}
+
+/*
+@media screen and (min-height: 800px) {
+    #login {
+        height: 40%;
+    }
+
+}
+*/
